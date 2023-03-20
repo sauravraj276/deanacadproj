@@ -4,16 +4,14 @@
 Designed and developed a basic portal for professors and students for the purpose of marks entry and result declaration. With  Admin User function to controle the semester progress. The end result shown to the students is like the transcript of college.
 
 
-
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Screenshot of Landing Page](/screenshots/landing_page.PNG?raw=true "Landing Page")
+![Screenshot of Admin Dashboard](/screenshots/admin_dashboard.PNG?raw=true "Admin Dashboard")
 
 ## DB SCHEMA
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Screenshot of Db schema](/screenshots/Db_screenshot.PNG?raw=true "Db Schema")
 
 ## Documentation
 
