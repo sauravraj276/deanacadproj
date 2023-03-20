@@ -1,0 +1,267 @@
+Institute
+    3 departments
+        cse
+            2 programs
+                Computer science and engineering btech
+                    8semester
+                        1st
+                            3 courses
+                                CS001,4      
+                                AM001,3        
+                                ME001,2        
+                        2st
+                            3 courses
+                                CS002,4
+                                CS102,2      
+                                CS003,3      
+                        3rd
+                            3 courses
+                                CS004,4
+                                CS005,4
+                                ME003,2
+                        4th
+                            2 courses
+                                CS005,4
+                                CS006,4
+                        5th
+                            3 courses
+                                CS007,2      
+                                CS032,4      
+                        6th
+                            3 courses
+                                CS028,4      
+                                CS035,1
+                        7th
+                            3 courses
+                                CS027,4      
+                                CS036,3      
+                        8th
+                            3 courses
+                                CS055,4      
+                                CS047,2      
+                MCA
+                    6 semesters
+                        1st
+                            3 courses
+                                CS071,4
+                                CS081,4
+                                ME091,2
+                        2nd
+                            2 courses
+                                CS072,4
+                                CS073,4
+                        3rd
+                            3 courses
+                                CS074,3      
+                                CS075,4      
+                        4th
+                            3 courses
+                                CS076,4      
+                                CS077,1
+                        5th
+                            3 courses
+                                CS078,4      
+                                CS079,3      
+                        6th
+                            3 courses
+                                CS080,4      
+                                CS090,2       
+
+            2 students
+
+            2 teachers
+
+        me  
+            1 programs
+                btech production and industrial engineering
+                    8semester
+                        
+
+        am
+            1 programs
+                Mtech inEngineering Mechanics and Design
+            
+                                ('CS001','Cs Course 01','CSE'),      
+                                ('AM001','Cm Course 01','AM'),      
+                                ('ME001','Me Course 01(lab)','ME'),       
+                                ('CS002','Cs Course 02','CSE'),
+                                ('CS102','Cs Course 02(lab)','CSE'),      
+                                ('CS003','Cs Course 03','CSE'),      
+                                ('CS004','Cs Course 04','CSE'),
+                                ('CS005','Cs Course 05','CSE'),
+                                ('ME003','Ce Course 03(lab)','ME'),
+                                ('CS005','Cs Course 05','CSE'),
+                                ('CS006','Cs Course 06','CSE'),
+                                ('CS007','Cs Course 07(lab)','CSE'),      
+                                ('CS032','Cs Course 32','CSE'),      
+                                ('CS028','Cs Course 28','CSE'),      
+                                ('CS035','Cs Course 35 (lab)','CSE'),
+                                ('CS027','Cs Course 27','CSE'),      
+                                ('CS036','Cs Course 36','CSE'),      
+                                ('CS055','Cs Course 55','CSE'),      
+                                ('CS047','Cs Course 47(lab)','CSE'),
+                                ('CS071','Cs Course 71','CSE'),
+                                ('CS081','Cs Course 81','CSE'),
+                                ('ME091','Me Course 91(lab)','CSE'),
+                                ('CS072','Cs Course 72','CSE'),
+                                ('CS073','Cs Course 73','CSE'),
+                                ('CS074','Cs Course 74','CSE'),      
+                                ('CS075','Cs Course 75','CSE'),     
+                                ('CS076','Cs Course 76','CSE'),      
+                                ('CS077','Cs Course 77 (lab)','CS'),
+                                ('CS078','Cs Course 78','CSE'),      
+                                ('CS079','Cs Course 79','CSE'),      
+                                ('CS080','Cs Course 80','CSE'),      
+                                ('CS090','Cs Course 90(lab)','CSE')  
+
+
+semester
+year
+course code
+credit
+
+                                ('6','1','1','CS001','4'),      
+                                ('6','1','1','AM001','3'),        
+                                ('6','1','1','ME001','2'),        
+                                ('6','2','1','CS002','4'),      
+                                ('6','2','1','CS102','2'),        
+                                ('6','2','1','CS003','3'),        
+                                ('6','3','2','CS004','4'),      
+                                ('6','3','2','CS006','4'),        
+                                ('6','3','2','ME003','2'),
+                                ('6','4','2','CS006','4'),
+                                ('6','4','2','CS006','4'),
+                                ('6','6','3','CS007','2'),      
+                                ('6','6','3','CS032','4'),
+                                ('6','6','3','CS028','4'),      
+                                ('6','6','3','CS036','1'),
+                                ('6','7','4','CS027','4'),      
+                                ('6','7','4','CS036','3'),
+                                ('6','8','4','CS066','4'),      
+                                ('6','8','4','CS047','2')
+
+1	reg_no Primary	varchar(10)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+More More
+	2	name	varchar(60)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+More More
+	3	department	varchar(3)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+More More
+	4	admission year	int(4)			No	None			Change Change	Drop Drop	
+More More
+	5	curr_semester	int(1)			No	None			Change Change	Drop Drop	
+More More
+	6	curr_year	int(1)			No	None			Change Change	Drop Drop	
+More More
+	7	program_id	int(3)			No	None			Change Change	Drop Drop	
+More More
+	8	active	int(1)			No	None			Change Change	Drop Drop	
+More More
+
+
+Yash Gupta
+20206007
+Amyra Ahirwar
+20206037
+Rahul Verma
+20206041
+Samarth Somvanshi
+20206042
+Saurav Raj
+20206044
+Shantanu Kumar
+20206189
+Ajay Oraon
+20208020
+Anshika Dixit
+20208069
+Krishn Kant Agarwal
+20208124
+SHREYAS D
+2020BM06
+DEEPAK SINGH KUSHWAHA
+2020BM13
+GAURAV KUNDWANI
+2020BT10
+OJASVI GUPTA
+2020CA025
+RASHID JAMAL
+2020CA045
+Nandini Yadav
+
+INSERT INTO `sem_status`(`status code`, `text`) VALUES 
+('0','semester created'),
+('1','admission started'),
+('2','admission closed'),
+('3','semester registration open for student'),
+('4','semester registration closed for student'),
+('5','portal open for professor registration to courses of this semester'),
+('6','portal closed for professor registration for this semester'),
+('7','portal open for marking entry'),
+('8','portal closed for marks entry'),
+('9','result declared and added to database'),
+('10','portal open for supplementary exam registration for failed students'),
+('11','portal closed for supplementary exam registration'),
+('12','supplementary exam result declared grade updated in database'),
+('13','semester completed')
+semester created : 0 ;
+if(sem==odd)
+admission started : 1;
+admission closed : 2; {automatically register admitted student to 1st year odd semester}
+semester registration open for student - 3 
+semester registration closed for student - 4
+portal open for professor registration to courses of this semester - 5
+portal closed for professor registration for this semester - 6
+portal open for marking entry - 7
+portal closed for marks entry - 8
+result declared and added to database - 9
+	if(sem==even)
+	portal open for supplementary exam registration for failed students - 10
+	portal closed for supplementary exam registration - 11
+	supplementary exam result declared grade updated in database - 12
+semester completed - 13
+
+//prof view of allowed courses and marks entry sql query
+SELECT course_sem.id as id,
+course_code as 'course code',
+programs.name as 'program',
+courses.name as 'course Name',
+programs.department_code as 'department',
+semester.sem_no as 'semester',
+programs.degree_name as degree,
+course_sem.prof_id as prof_id,
+semester.progress as progress
+FROM `course_sem`,`courses`,`semester`,`programs` WHERE course_sem.sem_id=semester.sem_id AND course_code=courses.code AND programs.id=semester.program 
+
+// query to create semester given previous sem id 
+
+
+
+
+// professor_marksentry_view
+fields.
+marks_id - 
+reg_no - 
+student name
+degree-program
+sem_no
+
+
+id
+course_code
+program
+course_name
+department
+semester
+degree
+prof_id
+progress
+marking_scheme
+reg_no
+credit
+course_name
+code
+
+//the students cs_id is automatically added to courses marks table
+when admin closes the course registration for professors.
+//
+//id from course_students table students who the professor registered for
